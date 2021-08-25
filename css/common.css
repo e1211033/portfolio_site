@@ -1,0 +1,109 @@
+/* reset -------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+
+/* common -------------------------------------------- */
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  height: 60px;
+  background-color: #ffff99;
+  min-width: 960px;
+}
+
+.header-box {
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 960px;
+}
+
+.header-box a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffa500;
+  vertical-align: middle;
+}
+
+.header-box a:hover {
+  font-weight: bold;
+}
+
+.logo {
+  float: left;
+  display:block;
+}
+
+.cart {
+  float: right;
+  display:block;
+  margin: 5px 0 0 10px;
+  width:50px;
+  height:50px;
+  background:url("../images/cart.png")  no-repeat;
+}
+
+.hedder-left {
+  float: left;
+  display:block;
+  margin: 20px 0 0 0;
+  font-size: 16px;
+}
+
+.hedder-right {
+  float: right;
+  display:block;
+  margin: 20px 10px 0 10px;
+  font-size: 16px;
+  color: #ffa500;
+}
+
+
+.content {
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 960px;
+}
+
+
+.success-msg {
+  color: blue;
+}
+
+.err-msg {
+  color: #FF0000;
+}
