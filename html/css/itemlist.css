@@ -1,0 +1,56 @@
+table {
+  width: 1240px;
+  border-collapse: collapse;
+}
+
+table, tr, th, td {
+  border: solid 1px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+img {
+  width: 40%;
+}
+
+form {
+  margin-bottom: 0em;
+}
+
+#status form input {
+  width: 100%;
+}
+
+#table_gray {
+  background-color: #d8d8d8;
+}
+
+#img {
+  width: 420px;
+  text-align: center;
+}
+
+#name, #price, #delete, #area, #type {
+  width: 120px;
+}
+
+#stock {
+  width: 240px;
+}
+
+#name {
+  text-align: center;
+}
+
+#price {
+  text-align: right;
+}
+
+#stock {
+  text-align: center;
+}
+
+.container {
+  border-bottom: solid 1px #000000;
+}

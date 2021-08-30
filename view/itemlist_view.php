@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>商品管理ページ</title>
-    <link type="text/css" rel="stylesheet" href="../css/itemlist.css">
+    <link type="text/css" rel="stylesheet" href="./css/itemlist.css">
   </head>
   <body>
     <div class='container'>
