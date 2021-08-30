@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>ユーザ登録ページ</title>
-    <link type="text/css" rel="stylesheet" href="../css/common.css">
-    <link type="text/css" rel="stylesheet" href="../css/register.css">
+    <link type="text/css" rel="stylesheet" href="./css/common.css">
+    <link type="text/css" rel="stylesheet" href="./css/register.css">
   </head>
   <body>
     <header>
       <div class="header-box">
-        <a href="./top.php"><img class="logo" src="../images/logo.png" alt="ご当地レトルトオンライン"></a>
+        <a href="./top.php"><img class="logo" src="./images/logo.png" alt="ご当地レトルトオンライン"></a>
         <a class="hedder-left" href="./top.php">ご当地レトルトオンライン</a>
       </div>
     </header>

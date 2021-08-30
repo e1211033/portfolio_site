@@ -1,11 +1,12 @@
 <?php
 
 // データベースの接続情報
-define('DB_USER',       'codecamp44646');       // MySQLのユーザ名（マイページのアカウント情報を参照）
-define('DB_PASSWD',     'codecamp44646');       // MySQLのパスワード（マイページのアカウント情報を参
-define('DB_NAME',       'codecamp44646');       // MySQLのDB名(このコースではMySQLのユーザ名と同じで
+define('DB_HOST',       'mysql');               // MySQLのホスト名
+define('DB_USER',       'fujita_kosuke');       // MySQLのユーザ名
+define('DB_PASSWD',     'iUvtU92W');            // MySQLのパスワード
+define('DB_NAME',       'portfolio');           // MySQLのDB名
 define('DB_CHARSET',    'SET NAMES utf8mb4');   // MySQLのcharset
-define('DSN', 'mysql:dbname='.DB_NAME.';host=localhost;charset=utf8');  // データベースのDSN情報
+define('DSN', 'mysql:dbname='.DB_NAME.';host='.DB_HOST.';charset=utf8');  // データベースのDSN情報
 
 // 正規表現用定数
 define('NAME_REGEX',          '/^[0-9a-zぁ-んァ-ヶ一-龠々\-_\+]+$/i');    // $nameの正規表現(itemlist.php)
@@ -19,7 +20,7 @@ define('AMOUNT_REGEX',        '/^\d{1,5}+$/');                            // $am
 define('SEARCH_PRICE_REGEX',  '/^\d{0,5}?$/');                            // $_POST['price_min'], $_POST['price_max']の正規表現(top.php)
 
 // 画像保存・表示用
-define('IMG_DIR',         '../img/');      // 画像の保存ディレクトリ
+define('IMG_DIR',         './img/');      // 画像の保存ディレクトリ
 
 // 地方検索用配列
 $area_list = array(

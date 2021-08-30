@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ユーザ管理ページ</title>
-    <link type="text/css" rel="stylesheet" href="../css/user_manage.css">
+    <link type="text/css" rel="stylesheet" href="./css/user_manage.css">
   </head>
   <body>
     <div class='container'>

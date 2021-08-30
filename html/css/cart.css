@@ -1,0 +1,99 @@
+.title {
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+.cart-list-title {
+  clear:both;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-list-title .cart-list-img{
+  margin-left: 10px;
+}
+
+.cart-list-title .cart-list-name{
+  margin-left: 90px;
+}
+
+.cart-list-title .cart-list-price{
+  margin-left: 490px;
+}
+
+.cart-list-title .cart-list-num {
+  margin-left: 120px;
+}
+
+.cart-list .cart-item {
+  clear:both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-list .cart-item-img{
+  width:120px;
+}
+
+.cart-list .cart-item-name{
+  position: absolute;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.cart-item-del{
+  display: inline;
+  position: absolute;
+  margin-left: 470px;
+}
+
+.cart-list .cart-item-price {
+  position: absolute;
+  margin-left: 560px;
+  color: #FF0000;
+}
+
+.cart-list .form_select_amount {
+  float:right;
+  margin-left: 50px;
+}
+
+.cart-list .cart-item-num {
+  width:100px;
+  height:30px;
+  font-size: 1.2em;
+}
+
+.cart-list .cart-item-num2 {
+    width: 50px;
+}
+
+.buy-sum-box{
+  clear:both;
+  margin-top: 10px;
+}
+
+.buy-sum-box .buy-sum-title{
+  margin-left: 620px;
+}
+
+.buy-sum-box .buy-sum-price{
+  margin-left: 30px;
+  font-size: 2em;
+  color: #FF0000;
+}
+
+.buy-btn {
+  display:block;
+  margin-top: 10px;
+  width:100%;
+  height:60px;
+  color: #ffffff;
+  background-color: #FF8A00;
+  font-size: 1.4em;
+  border:none;
+}
