@@ -7,15 +7,7 @@
     <link type="text/css" rel="stylesheet" href="./css/top.css">
   </head>
   <body>
-    <header>
-      <div class="header-box">
-        <a href="./top.php"><img class="logo" src="./images/logo.png" alt="ご当地レトルトオンライン"></a>
-        <a class="hedder-left" href="./top.php">ご当地レトルトオンライン</a>
-        <a class="hedder-right" href="./logout.php">ログアウト</a>
-        <a href="./cart.php" class="cart"></a>
-        <p class="hedder-right">ユーザー名：<?php print $_SESSION['user_name']; ?></p>
-      </div>
-    </header>
+    <?php include VIEW_PATH . 'templates/header.php';?>
     <div class="search content">
       <form method="post">
         <div class="search_detail"><label>価格下限: <input type="text" size="10" name="price_min" placeholder="0~99999" value="<?php if (isset($price_min) && !isset($tmp_err_msg['price_min'])) {print($price_min);}?>"></label></div>

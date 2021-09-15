@@ -7,12 +7,7 @@
     <link type="text/css" rel="stylesheet" href="./css/register.css">
   </head>
   <body>
-    <header>
-      <div class="header-box">
-        <a href="./top.php"><img class="logo" src="./images/logo.png" alt="ご当地レトルトオンライン"></a>
-        <a class="hedder-left" href="./top.php">ご当地レトルトオンライン</a>
-      </div>
-    </header>
+    <?php include VIEW_PATH . 'templates/header.php';?>
     <div class="content">
       <div class="register">
         <div class="register_title">新規会員登録画面</div>
