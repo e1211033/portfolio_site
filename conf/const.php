@@ -96,4 +96,6 @@ $type_list = array(
   '4'=>'その他'
 );
 
+define('VIEW_PATH', $_SERVER['DOCUMENT_ROOT'].'/../view/');
+
 ?>

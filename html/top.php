@@ -17,9 +17,6 @@ $dbh        = null; // DBハンドル
 // セッション開始
 session_start();
 
-// ユーザがログインしているかどうかチェック
-check_user_login();
-
 // DBに接続します
 try {
   $dbh = get_db_connect();
@@ -33,6 +30,8 @@ if ($dbh) {
   $sql_kind = get_post_data("sql_kind");
   // カートを入れる処理(表示内容は更新無し)
   if ($sql_kind === 'insert_cart') {
+    // ユーザがログインしているかどうかチェック
+    check_user_login();
     // user_idの取得
     $user_id = $_SESSION['user_id'];
     // パラメータの取得

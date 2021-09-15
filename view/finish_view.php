@@ -7,15 +7,7 @@
   <link type="text/css" rel="stylesheet" href="./css/finish.css">
 </head>
 <body>
-  <header>
-    <div class="header-box">
-      <a href="./top.php"><img class="logo" src="./images/logo.png" alt="ご当地レトルトオンライン"></a>
-      <a class="hedder-left" href="./top.php">ご当地レトルトオンライン</a>
-      <a class="hedder-right" href="./logout.php">ログアウト</a>
-      <a href="./cart.php" class="cart"></a>
-      <p class="hedder-right">ユーザー名：<?php print $_SESSION['user_name']; ?></p>
-    </div>
-  </header>
+  <?php include VIEW_PATH . 'templates/header.php';?>
   <div class="content">
 <?php foreach ($err_msg as $value) { ?>
   <p class="err-msg"><?php print $value; ?></p>
